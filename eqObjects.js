@@ -24,8 +24,8 @@ const eqObjects = function(object1, object2) {
     return false;
   }
   for (const key of argument1) {
-    const argument1Value = argument1[key];
-    const argument2Value = argument2[key];
+    const argument1Value = object1[key];
+    const argument2Value = object2[key];
     if (Array.isArray(argument1Value) || Array.isArray(argument2Value)) {
       if (!eqArrays(argument1Value, argument2Value)) {
         return false;
