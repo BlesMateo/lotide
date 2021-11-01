@@ -16,4 +16,4 @@ console.log(`✅✅✅ Assertion Passed: ${Array} === ${Array2}.`);
 else console.log(`🛑🛑🛑 Assertion Failed: ${Array} !== ${Array2}.`);}
 
 
-module.exports = assertArrayEqual;
+module.exports = assertArraysEqual;
