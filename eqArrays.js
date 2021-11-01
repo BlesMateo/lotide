@@ -9,4 +9,4 @@ for (let i = 0; i < Array.length; i = i + 1) {
 return true
 }
 
-
+module.exports = eqArrays;
