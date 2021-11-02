@@ -1,0 +1,22 @@
+{
+  "name": "@blesmateo/lotide",
+  "version": "1.0.0",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlesMateo/lotide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlesMateo/lotide/issues"
+  },
+  "homepage": "https://github.com/BlesMateo/lotide#readme",
+  "description": ""
+}
